@@ -1,7 +1,12 @@
 # vscodium-config
+
+![GitHub repo size](https://img.shields.io/github/repo-size/aKqir24/vscodium-config?style=for-the-badge)
+
 It includes the extensions and the `settings.json` config in my vscodium programming environment.
 
-![prev](preview.png)
+|   **Workspace**                   |   **Welcome**                   |
+|-----------------------------------|---------------------------------|
+| ![wor](screenshots/workspace.png) | ![wel](screenshots/welcome.png) |
 
 # Installation
 > [!note]

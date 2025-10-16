@@ -1,21 +1,36 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "aac2da308b6b05c4e1ce70b2325ff37df0f0ba575db997ca946649e348ca5318",
-    "telemetry.devDeviceId": "c348a1b0-e7b6-46c3-8518-0a95764e89f1",
+    "telemetry.devDeviceId": "16017ca0-e7c2-4120-9a60-43ae10547a20",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/akqir24/Documents/projects"
+                "backupFolder": "1782227121747"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "profileAssociations": {
         "workspaces": {
-            "file:///home/akqir24/Documents/projects": "__default__profile__"
+            "file:///home/akqir24/Documents/projects": "__default__profile__",
+            "file:///home/akqir24/Documents/projects/OldTube-Tweaks": "__default__profile__",
+            "file:///run/user/1000/gvfs/mtp%3Ahost%3Dvivo_V2247_10AD7623JH001KE/Internal%20storage/2025-1_canillo_bsis_1a": "__default__profile__",
+            "file:///home/akqir24/Desktop/2025-1_canillo_bsis_1a": "__default__profile__",
+            "file:///home/akqir24/.files": "__default__profile__",
+            "file:///home/akqir24/Documents/projects/pacstall": "__default__profile__",
+            "file:///home/akqir24/Desktop/my_personal-portfolio": "__default__profile__",
+            "file:///home/akqir24/.config/rofi": "__default__profile__",
+            "file:///home/akqir24/.files/resources/scripts/pywal16_scripts": "__default__profile__",
+            "file:///home/akqir24/.files/resources/scripts/walset": "__default__profile__",
+            "file:///home/akqir24/.themes/Flat-Remix-GTK-Red-Darkest/gtk-4.0": "__default__profile__",
+            "file:///home/akqir24/Documents/projects/J.A.R-ComProg-Project": "__default__profile__",
+            "file:///home/akqir24/Desktop/Login-Page": "__default__profile__",
+            "file:///home/akqir24/.files/resources/scripts/walset/assets": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1782227121747": "__default__profile__"
+        }
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -67,11 +82,76 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akqir24/.config/rofi",
+                                        "path": "/home/akqir24/.config/rofi",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/rofi"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akqir24/Documents/projects/pacstall",
+                                        "path": "/home/akqir24/Documents/projects/pacstall",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/projects/pacstall"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akqir24/Documents/projects/OldTube-Tweaks",
+                                        "path": "/home/akqir24/Documents/projects/OldTube-Tweaks",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/projects/OldTube-Tweaks"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akqir24/.files",
+                                        "path": "/home/akqir24/.files",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.files"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akqir24/Desktop/2025-1_canillo_bsis_1a",
+                                        "path": "/home/akqir24/Desktop/2025-1_canillo_bsis_1a",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/2025-1_canillo_bsis_1a"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///run/user/1000/gvfs/mtp%3Ahost%3Dvivo_V2247_10AD7623JH001KE/Internal%20storage/2025-1_canillo_bsis_1a",
+                                        "path": "/run/user/1000/gvfs/mtp:host=vivo_V2247_10AD7623JH001KE/Internal storage/2025-1_canillo_bsis_1a",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/run/user/1000/gvfs/mtp:host=vivo_V2247_10AD7623JH001KE/Internal storage/2025-1_canillo_bsis_1a"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -83,6 +163,20 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/projects"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akqir24/Desktop/my_personal-portfolio/MyPersonalWebPage1.html",
+                                        "path": "/home/akqir24/Desktop/my_personal-portfolio/MyPersonalWebPage1.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/my_personal-portfolio/MyPersonalWebPage1.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -381,7 +475,7 @@
                     },
                     {
                         "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
+                        "label": "Switch to Alt+Click for Multi-Cursor"
                     },
                     {
                         "id": "editor.action.toggleColumnSelection",
@@ -443,13 +537,11 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
-                                    "label": "Custom Title Bar",
-                                    "checked": true
+                                    "label": "Custom Title Bar"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -465,12 +557,12 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.activityBarLocation.default",
-                                                "label": "&&Default",
-                                                "checked": true
+                                                "label": "&&Default"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.top",
-                                                "label": "&&Top"
+                                                "label": "&&Top",
+                                                "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.bottom",
@@ -561,8 +653,7 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.editorActionsDefault",
-                                                "label": "Tab Bar",
-                                                "checked": true
+                                                "label": "Tab Bar"
                                             },
                                             {
                                                 "id": "workbench.action.editorActionsTitleBar",
@@ -570,7 +661,8 @@
                                             },
                                             {
                                                 "id": "workbench.action.hideEditorActions",
-                                                "label": "Hidden"
+                                                "label": "Hidden",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -580,13 +672,11 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "Toggle &&Breadcrumbs",
-                                    "checked": true
+                                    "label": "Toggle &&Breadcrumbs"
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
@@ -600,8 +690,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleRenderControlCharacter",
-                                    "label": "Render &&Control Characters",
-                                    "checked": true
+                                    "label": "Render &&Control Characters"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -641,6 +730,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -757,7 +853,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     }
                 ]
             },
@@ -774,8 +870,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -844,54 +939,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1095,7 +1181,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1410,16 +1497,16 @@
                 "userSettingsLabel": "ctrl+k z"
             },
             "workbench.action.toggleSidebarVisibility": {
-                "label": "Ctrl+B",
-                "userSettingsLabel": "ctrl+b"
+                "label": "Ctrl+Shift+E",
+                "userSettingsLabel": "ctrl+shift+e"
             },
             "workbench.action.toggleAuxiliaryBar": {
                 "label": "Ctrl+Alt+B",
                 "userSettingsLabel": "ctrl+alt+b"
             },
             "workbench.action.togglePanel": {
-                "label": "Ctrl+J",
-                "userSettingsLabel": "ctrl+j"
+                "label": "Ctrl+Shift+J",
+                "userSettingsLabel": "ctrl+shift+j"
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+=",
@@ -1439,6 +1526,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1449,8 +1541,8 @@
                 "userSettingsLabel": "shift+alt+0"
             },
             "workbench.view.explorer": {
-                "label": "Ctrl+Shift+E",
-                "userSettingsLabel": "ctrl+shift+e"
+                "label": "Ctrl+B",
+                "userSettingsLabel": "ctrl+b"
             },
             "workbench.view.search": {
                 "label": "Ctrl+Shift+F",
@@ -1672,47 +1764,88 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#171210",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "titleBarBorder": "#2b2b2b",
-            "activityBarBackground": "#181818",
-            "activityBarBorder": "#2b2b2b",
-            "sideBarBackground": "#181818",
-            "sideBarBorder": "#2b2b2b",
-            "statusBarBackground": "#181818",
-            "statusBarBorder": "#2b2b2b",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#ebe0dc",
+            "background": "#171210",
+            "editorBackground": "#171210",
+            "titleBarBackground": "#171210",
+            "titleBarBorder": "rgba(185, 147, 133, 0.2)",
+            "activityBarBackground": "#191311",
+            "activityBarBorder": "rgba(185, 147, 133, 0.2)",
+            "sideBarBackground": "#171210",
+            "sideBarBorder": "rgba(185, 147, 133, 0.2)",
+            "statusBarBackground": "#171210",
+            "statusBarBorder": "rgba(185, 147, 133, 0.2)",
+            "statusBarNoFolderBackground": "#191311"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
-            "activityBarWidth": 48,
-            "sideBarWidth": 233,
-            "auxiliarySideBarWidth": 0,
+            "titleBarHeight": 36,
+            "activityBarWidth": 0,
+            "sideBarWidth": 214,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/akqir24/Documents/projects",
-            "backupPath": "/home/akqir24/.config/VSCodium/Backups/e376ee1d541210c25f7108e7d8e139a2",
+            "backupPath": "/home/aKqir24/.config/VSCodium/Backups/1782227121747",
             "uiState": {
-                "mode": 0,
-                "x": 8,
-                "y": 35,
-                "width": 1140,
-                "height": 825
+                "mode": 1,
+                "x": 155,
+                "y": 155,
+                "width": 714,
+                "height": 499,
+                "zoomLevel": -1
             }
         },
         "openedWindows": []
+    },
+    "windowControlHeight": 30,
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "3eef0582b0545ac1e07b870b7240afbc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5a44a198e531499d306b6a7bf2f81d67": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "be33caf51d3dc13fcfa32da1d4609979": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2ebddbc8f0b96182495918fa9d4b2d55": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "45572aaec2f547acf616c92422f09a25": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7fa2eedb7e163cd9cb2a8850cb510574": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a7196a04bbb11eb1b3560048bf8625df": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "700c5a29b7e96e34d905ebd45cf515fb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
     }
 }
